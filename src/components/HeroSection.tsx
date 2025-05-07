@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         <h1 className="animate-fade-in text-4xl font-bold leading-tight sm:text-5xl md:text-6xl lg:text-7xl">
           <span className="block">Olá, eu sou</span>
-          <span className="mt-2 block text-gradient-gold">Seu Nome</span>
+          <span className="mt-2 block text-gradient-gold">Calebe Jovair</span>
         </h1>
         
         <p className="animate-fade-in animation-delay-200 mx-auto mt-6 max-w-2xl text-xl text-muted-foreground md:text-2xl">
@@ -27,14 +27,14 @@ const HeroSection = () => {
           
           <div className="flex items-center space-x-4">
             <Button asChild variant="ghost" size="icon" className="h-12 w-12 rounded-full border border-border hover:bg-accent/10 hover:text-accent">
-              <a href="https://github.com/seuperfil" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/calebe120" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>
             </Button>
             
             <Button asChild variant="ghost" size="icon" className="h-12 w-12 rounded-full border border-border hover:bg-accent/10 hover:text-accent">
-              <a href="https://linkedin.com/in/seuperfil" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/calebe-jovair-720332215/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </a>
