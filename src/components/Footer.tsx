@@ -19,7 +19,7 @@ const Footer = () => {
           </Button>
           
           <div className="mb-6 text-center">
-            <h2 className="mb-2 text-2xl font-bold text-gradient-gold">Caleeb Jovair</h2>
+            <h2 className="mb-2 text-2xl font-bold text-gradient-gold">Calebe Jovair</h2>
             <p className="text-sm text-muted-foreground">Desenvolvedor Fullstack</p>
           </div>
           
