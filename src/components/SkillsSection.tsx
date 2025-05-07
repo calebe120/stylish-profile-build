@@ -4,28 +4,24 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 // Sample skills data - replace with your actual skills
 const skills = {
   frontend: [
-    { name: "HTML & CSS", level: 90 },
-    { name: "JavaScript", level: 85 },
-    { name: "TypeScript", level: 80 },
-    { name: "React", level: 85 },
-    { name: "Next.js", level: 75 },
-    { name: "Tailwind CSS", level: 90 }
+    { name: "HTML & CSS", level: 50 },
+    { name: "JavaScript", level: 50 },
+    { name: "TypeScript", level: 50 },
+    { name: "React", level: 30 },
+    { name: "Next.js", level: 30 },
+    { name: "Tailwind CSS", level: 50 }
   ],
   backend: [
-    { name: "Node.js", level: 80 },
-    { name: "Express", level: 75 },
-    { name: "MongoDB", level: 70 },
+    { name: "Node.js", level: 50 },
     { name: "PostgreSQL", level: 65 },
-    { name: "Firebase", level: 70 },
-    { name: "REST API", level: 85 }
+    { name: "JAVA", level: 65 },
   ],
   tools: [
     { name: "Git & GitHub", level: 85 },
-    { name: "Docker", level: 60 },
+    { name: "Docker", level: 20 },
     { name: "VS Code", level: 90 },
-    { name: "Figma", level: 65 },
-    { name: "Jest", level: 70 },
-    { name: "CI/CD", level: 65 }
+    { name: "Figma", level: 30 },
+
   ]
 };
 
