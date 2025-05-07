@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
           
           <div className="text-center text-sm text-muted-foreground">
-            <p>&copy; {currentYear} Seu Nome. Todos os direitos reservados.</p>
+            <p>&copy; {currentYear} Calebe Jovair. Todos os direitos reservados.</p>
             <p className="mt-1">Feito com ❤️ e React</p>
           </div>
         </div>
