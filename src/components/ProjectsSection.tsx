@@ -10,13 +10,14 @@ const projectsData = [
   {
     id: 1,
     title: "Portfolio Website",
-    description: "Um site de portfólio responsivo construído com React e Tailwind CSS.",
-    image: "/placeholder.svg",
-    tags: ["React", "Tailwind CSS", "Vite"],
-    githubUrl: "https://github.com/yourusername/portfolio",
-    liveUrl: "https://yourwebsite.com"
+    description: "Um site de portfólio responsivo construído com HTML, CSS e JavaScript Puro.",
+    image: "public/perfil2.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    githubUrl: "https://github.com/calebe120/projeto-devlinks",
+    liveUrl: "https://calebe120.github.io/projeto-devlinks/"
+  
   },
-  {
+  /*{
     id: 2,
     title: "E-commerce Platform",
     description: "Uma plataforma de comércio eletrônico completa com sistema de pagamento.",
@@ -42,7 +43,7 @@ const projectsData = [
     tags: ["JavaScript", "API", "CSS", "Chart.js"],
     githubUrl: "https://github.com/yourusername/weather",
     liveUrl: "https://yourweatherapp.com"
-  }
+  }*/
 ];
 
 const ProjectsSection = () => {
@@ -115,7 +116,7 @@ const ProjectsSection = () => {
         
         <div className="mt-12 flex justify-center">
           <Button asChild className="border-2 border-gold bg-transparent px-8 font-medium text-gold hover:bg-gold hover:text-background">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/calebe120" target="_blank" rel="noopener noreferrer">
               <Github className="mr-2 h-5 w-5" />
               Ver mais no GitHub
             </a>
