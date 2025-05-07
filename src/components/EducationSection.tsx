@@ -7,25 +7,25 @@ import { School, Calendar } from "lucide-react";
 const educationData = [
   {
     id: 1,
-    institution: "Universidade Federal de Exemplo",
-    degree: "Bacharelado em Ciência da Computação",
-    period: "2018 - 2022",
+    institution: "PUC Goiás - Pontifícia Universidade Católica de Goiás",
+    degree: "Técnico em análise e Desenvolvimento de Sistema",
+    period: "2023 - 2025",
     description: "Formação com ênfase em desenvolvimento de software e sistemas computacionais.",
     topics: ["Algoritmos", "Estruturas de Dados", "Banco de Dados", "Inteligência Artificial", "Engenharia de Software"]
   },
-  {
+  /*{
     id: 2,
     institution: "Instituto Técnico de Tecnologia",
     degree: "Curso Técnico em Desenvolvimento Web",
     period: "2016 - 2018",
     description: "Formação técnica focada em tecnologias web e design de interfaces.",
     topics: ["HTML & CSS", "JavaScript", "Design Responsivo", "UX/UI", "PHP Básico"]
-  }
+  }*/
 ];
 
 // Sample certification data - replace with your actual certifications
 const certificationData = [
-  {
+  /*{
     id: 1,
     name: "AWS Certified Developer - Associate",
     issuer: "Amazon Web Services",
@@ -45,7 +45,7 @@ const certificationData = [
     issuer: "freeCodeCamp",
     date: "2020",
     credentialId: "FCC-JSALGO-54321"
-  }
+  }*/
 ];
 
 const EducationSection = () => {
@@ -94,7 +94,7 @@ const EducationSection = () => {
           </div>
           
           <div>
-            <h3 className="mb-6 text-2xl font-semibold">Certificações</h3>
+            <h3 className="mb-6 text-2xl font-semibold"></h3>
             
             <div className="space-y-6">
               {certificationData.map((cert) => (
