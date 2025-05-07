@@ -19,27 +19,27 @@ const Footer = () => {
           </Button>
           
           <div className="mb-6 text-center">
-            <h2 className="mb-2 text-2xl font-bold text-gradient-gold">Seu Nome</h2>
+            <h2 className="mb-2 text-2xl font-bold text-gradient-gold">Caleeb Jovair</h2>
             <p className="text-sm text-muted-foreground">Desenvolvedor Fullstack</p>
           </div>
           
           <div className="mb-8 flex items-center space-x-4">
             <Button asChild variant="ghost" size="icon" className="rounded-full hover:bg-accent/10 hover:text-accent">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/calebe120" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>
             </Button>
             
             <Button asChild variant="ghost" size="icon" className="rounded-full hover:bg-accent/10 hover:text-accent">
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/calebe-jovair-720332215/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </a>
             </Button>
             
             <Button asChild variant="ghost" size="icon" className="rounded-full hover:bg-accent/10 hover:text-accent">
-              <a href="mailto:youremail@example.com">
+              <a href="mailto:calebe_lemos@hotmail.com">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
               </a>
