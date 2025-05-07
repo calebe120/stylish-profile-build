@@ -73,8 +73,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-medium">Email</h4>
-                    <a href="mailto:seu-email@exemplo.com" className="text-sm text-muted-foreground hover:text-accent">
-                      seu-email@exemplo.com
+                    <a href="mailto:calebe_lemos@hotmail.com" className="text-sm text-muted-foreground hover:text-accent">
+                      calebe_lemos@hotmail.com
                     </a>
                   </div>
                 </div>
@@ -85,8 +85,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-medium">Telefone</h4>
-                    <a href="tel:+5500000000000" className="text-sm text-muted-foreground hover:text-accent">
-                      +55 (00) 00000-0000
+                    <a href="tel:+5562982737832" className="text-sm text-muted-foreground hover:text-accent">
+                      +55 (62) 98273-7832
                     </a>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">Localização</h4>
                     <p className="text-sm text-muted-foreground">
-                      Sua Cidade, Estado - País
+                      Aparecida de Goiânia, Goiás - Brasil
                     </p>
                   </div>
                 </div>
