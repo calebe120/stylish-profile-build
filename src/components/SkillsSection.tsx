@@ -25,17 +25,17 @@ const skills = {
   ]
 };
 
-const SkillBar = ({ name, level }: { name: string; level: number }) => {
+const SkillBar = ({ name, }: { name: string;  }) => {
   return (
     <div className="mb-4">
       <div className="mb-1 flex items-center justify-between">
         <span className="text-sm">{name}</span>
-        <span className="text-xs text-muted-foreground">{level}%</span>
+        
       </div>
       <div className="h-2 w-full overflow-hidden rounded-full bg-secondary/30">
         <div 
           className="h-full rounded-full bg-gradient-to-r from-gold-dark via-gold to-gold-light"
-          style={{ width: `${level}%`, transition: "width 1s ease-in-out" }}
+          
         />
       </div>
     </div>
@@ -62,7 +62,7 @@ const SkillsSection = () => {
             </CardHeader>
             <CardContent>
               {skills.frontend.map((skill) => (
-                <SkillBar key={skill.name} name={skill.name} level={skill.level} />
+                <SkillBar key={skill.name} name={skill.name}  />
               ))}
             </CardContent>
           </Card>
@@ -74,7 +74,7 @@ const SkillsSection = () => {
             </CardHeader>
             <CardContent>
               {skills.backend.map((skill) => (
-                <SkillBar key={skill.name} name={skill.name} level={skill.level} />
+                <SkillBar key={skill.name} name={skill.name}  />
               ))}
             </CardContent>
           </Card>
@@ -86,7 +86,7 @@ const SkillsSection = () => {
             </CardHeader>
             <CardContent>
               {skills.tools.map((skill) => (
-                <SkillBar key={skill.name} name={skill.name} level={skill.level} />
+                <SkillBar key={skill.name} name={skill.name}  />
               ))}
             </CardContent>
           </Card>
