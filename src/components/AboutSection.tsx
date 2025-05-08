@@ -37,7 +37,7 @@ const AboutSection = () => {
                 <div className="h-full w-full overflow-hidden rounded-full border-2 border-gold/20">
                   {/* Placeholder for profile image */}
                   <div className="flex h-full w-full items-center justify-center bg-secondary text-5xl font-bold text-gold">
-                    <img src="/public/images/avatar2.png" alt="Calebe jovair" />
+                    <img src="/images/avatar2.png" alt="Calebe jovair" />
                   </div>
                 </div>
               </div>
