@@ -11,7 +11,7 @@ const projectsData = [
     id: 1,
     title: "Portfolio Website",
     description: "Um site de portfólio responsivo construído com HTML, CSS e JavaScript Puro.",
-    image: "/public/perfil2.png",
+    image: "/public/images/perfil2.png",
     tags: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/calebe120/projeto-devlinks",
     liveUrl: "https://calebe120.github.io/projeto-devlinks/"
